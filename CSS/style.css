@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+footer{
+    width: 100%;
+    position: relative;
+    /* Fija el contenedor a una posición */
+    bottom: 0px;
+    /* El div se sitúa abajo */
+    z-index: 10;
+    /* Lo muestra por encima de otros div */
+    background: rgb(7, 0, 134);
+    background: linear-gradient(90deg, rgba(7, 0, 134, 1) 1%, rgba(0, 74, 255, 1) 51%, rgb(140, 186, 255) 100%);
+}
+
+.fondoAzul{
+    background:  RoyalBlue;
+    overflow: hidden;
+    
+}
+.fondoAzul img{
+    transform: translateX(6%) translateY(0%) scaleY(1.17) scaleX(1.30) ;
+}
